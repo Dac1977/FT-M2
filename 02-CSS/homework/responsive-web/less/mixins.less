@@ -1,1 +1,11 @@
 // Mixins acá
+.flex(@direction, @justify, @aling: center){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @aling;
+}
+.img-rounded(@radius: 20px){
+    border-radius: @radius;
+}
+    
