@@ -7,6 +7,12 @@ import './Zoo.module.css';
 
 export default function Zoo() {
    /* Escribe acá tu código */
+   const [zoo, setZoo] = React.useState({
+      zooName: '',
+      animals: [],
+      spwcies: [],
+      allAnimals: [],
+   });
    return (
       <div>
          <h1>-</h1>
