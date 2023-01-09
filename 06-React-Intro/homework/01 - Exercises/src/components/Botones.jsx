@@ -1,6 +1,6 @@
 import React from "react";
 
-class Botones extends React.Component{
+export default class Botones extends React.Component{
     render(){
         return ( <div>
             <button onClick={() => alert(this.props.alerts.m1)}>Módulo 1</button>
@@ -9,4 +9,4 @@ class Botones extends React.Component{
         );
     }
 }
-export default Botones;
+//export default Botones; el export se puede poner aqui abajo o directamente como esta puesto en la funcion

@@ -2,7 +2,7 @@ import React from "react";
 import Botones from "./Botones.jsx";
 
 const studentName = "Diego";
-const techSkills = ["Html", "Css", "JavaScript", "React", "Redux"];
+const techSkills = ["Html", "Css", "JavaScript", "React", "Redux", "Angular"];
 const alerts = { m1: "Aprobado", m2: "En curso" };
 
 export default function Bienvenido() {
@@ -13,9 +13,9 @@ export default function Bienvenido() {
       <h3>{studentName}</h3>
       <ul>
         {techSkills.map(skill => 
-          <li>{skill}</li>)}
+          <li key={skill} >{skill}</li>)}
       </ul>
-      <Botones alerts = {alerts} />
+      <Botones alerts = {alerts} /> 
     </div>
   );
 }

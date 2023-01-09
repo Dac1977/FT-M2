@@ -5,6 +5,7 @@ function Musico({ name, lastname, band }) {
     <div>
       <h1>{name}, {lastname}</h1>
       <h2>{band}</h2>
+      
     </div>
   )
 };

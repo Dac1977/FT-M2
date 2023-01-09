@@ -9,6 +9,7 @@ export default function Musicos({ musicos }) {
             <Musico name={musico.name} lastname={musico.lastname} band={musico.band} />
           ))
         }
+        
       </div>
     )
 };

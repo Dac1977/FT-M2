@@ -29,7 +29,8 @@ function ToDo (description) {
 
 // Tu código acá:
 ToDo.prototype.completeToDo = function(){
-  this.complete = !this.complete;
+  //this.complete = !this.complete;
+  this.complete = true; //esta forma o la aerriva funcionan
 }
 
 
