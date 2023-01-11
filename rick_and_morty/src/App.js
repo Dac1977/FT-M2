@@ -3,8 +3,8 @@ import Card from './components/card/Card.jsx'
 import Cards from './components/cards/Cards.jsx'
 import SearchBar from './components/searchbar/SearchBar.jsx'
 import characters, { Rick } from './data.js'
-
-function App () {
+import React from 'react'
+export default function App () {
   return (
     <div className='App' style={{ padding: '25px' }} >
       <div className='div'>
@@ -33,4 +33,4 @@ function App () {
   )
 }
 
-export default App
+//export default App

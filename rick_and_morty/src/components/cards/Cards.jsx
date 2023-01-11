@@ -1,6 +1,6 @@
 import Card from "../card/Card";
 import estilo from "./Cards.module.css"
-
+import React from 'react'
 export default function Cards(props) {
    const { characters } = props;
    return <div className={estilo.container} >
